@@ -106,3 +106,5 @@ const checkStatus = response => {
         throw new HTTPResponseError(response);
     }
 }
+
+module.exports = app;
